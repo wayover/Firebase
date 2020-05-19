@@ -52,8 +52,6 @@ EditText etWynik;
     });
     }
 
-
-    
     public void customObjects() {
         // [START custom_objects]
         DocumentReference docRef = db.collection("cities").document("BJ");
