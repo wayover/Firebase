@@ -1,0 +1,16 @@
+Index: app/src/main/java/com/example/firebase/MainActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/firebase/MainActivity.java	(revision abdadc84823d807e5cfe1e1167a02e3e7ac63042)
++++ app/src/main/java/com/example/firebase/MainActivity.java	(date 1589876692949)
+@@ -52,8 +52,6 @@
+     });
+     }
+ 
+-
+-    
+     public void customObjects() {
+         // [START custom_objects]
+         DocumentReference docRef = db.collection("cities").document("BJ");
